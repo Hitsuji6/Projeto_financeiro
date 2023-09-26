@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-size: 100%;
+	background: linear-gradient(68.15deg, #17202A 16.62%, #FA8072 85.61%);
+}
+
+.conteudo-secundario-tabela:hover::-webkit-scrollbar-thumb{
+	visibility: visible;
+}
+
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+}
+
+.cabecalho-imagem{
+	height: 72px;
+}
+
+.cabecalho-menu{
+	display: flex;
+	gap: 32px;
+}
+
+.cabecalho-menu-item{
+	font-family: 'Sarala', sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.cabecalho-menu-item:hover{
+	border-radius: 10px;
+	transform: scale(1.2);
+	background: #FA8072;
+	transition: 0.5s;
+	box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+}
+
+.conteudo{
+	border-top: 0.4px solid white;
+	margin-bottom: 48px;
+}
+
+.conteudo-principal{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+	font-family: 'Rightteous', cursive;
+	font-weight: 400;
+	font-size: 54px;
+	color: white;
+}
+
+.conteudo-principal-escrito-subtitulo{
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: white;
+}
+
+.conteudo-principal-escrito-botao{
+	font-family: 'Sarala', sans-serif;
+	background-color: #FA8072;
+	width: 180px;
+	height: 60px;
+	border: none;
+	box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	color: white;
+	font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao:hover{
+	background-color: rgba(219, 112, 100, 0.53);
+}
+
+.conteudo-principal-imagem{
+	height: 430px;
+}
+
+.conteudo-secundario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin-top: 48px;
+}
+
+.conteudo-secundario-tabela{
+	display: flex;
+	border-top: 0.4px solid white;
+	padding-top: 48px;
+	border-collapse: collapse;
+	overflow: hidden;
+}
+
+.conteudo-secundario-tabela::-webkit-scrollbar{
+	border-radius: .5rem;
+	background-color: #0004;
+	visibility: hidden;
+}
+
+.conteudo-secundario-tabela:hover::-webkit-scrollbar-thumb{
+	visibility: visible;
+}
+
+th, tr, td{
+	border: 0.2px solid white;
+	background-color: #FFF5 /*#DB7064*/;
+	padding: 1rem;
+	background-filter: blur(7px);
+	box-shadow: 0 .4rem .8rem #0005;
+}
+
+tr:hover{
+	background-color: #FFF6;
+}
+
+th{
+	background-color: #FFF9;
+}
+
+.rodape{
+	border-top: 0.4px solid white;
+}
+
+.rodape-imagem{
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
